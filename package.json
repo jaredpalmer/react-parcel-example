@@ -3,7 +3,7 @@
   "license": "MIT",
   "scripts": {
     "start": "NODE_ENV=development parcel index.html",
-    "build": "NODE_ENV=production parcel build index.html"
+    "build": "NODE_ENV=production parcel build index.html --no-minify"
   },
   "dependencies": {
     "babel-preset-react-app": "^3.1.0",
