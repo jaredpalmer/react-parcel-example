@@ -12,7 +12,7 @@ yarn
 yarn start
 ```
 
-Then open `http://localhost:1234` and edit `index.js` and press save. Parcel with automagically hot reload you files whenever you make changes.
+Then open `http://localhost:1234` and edit `index.js` and press save. Parcel will automagically hot reload you files whenever you make changes.
 
 
 ## Building for Production
