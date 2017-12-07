@@ -1,6 +1,6 @@
 # React Parcel Example
 
-A minimum viable React app with [Parcel Bundler](https://parceljs.org).
+A minimum viable React app with [Parcel Bundler](https://parceljs.org)
 
 **What's inside?**
 
