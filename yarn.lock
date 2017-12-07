@@ -2009,6 +2009,10 @@ is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
 
+is-url@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/is-url/-/is-url-1.2.2.tgz#498905a593bf47cc2d9e7f738372bbf7696c7f26"
+
 isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
@@ -2460,9 +2464,9 @@ pako@~1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
-parcel-bundler@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/parcel-bundler/-/parcel-bundler-1.0.1.tgz#4de6c0939231506c1181aced3a883d5ff560f86a"
+parcel-bundler@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/parcel-bundler/-/parcel-bundler-1.0.2.tgz#503d857d2fe486a4674c52191b40225db5f3668b"
   dependencies:
     babel-core "^6.25.0"
     babel-generator "^6.25.0"
@@ -2477,6 +2481,7 @@ parcel-bundler@^1.0.1:
     cssnano "^3.10.0"
     glob "^7.1.2"
     htmlnano "^0.1.6"
+    is-url "^1.2.2"
     js-yaml "^3.10.0"
     micromatch "^3.0.4"
     mkdirp "^0.5.1"
