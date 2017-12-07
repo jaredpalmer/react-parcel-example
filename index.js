@@ -1,10 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import logo from './logo.svg';
+import './index.css';
 
-const App = () => <div>Hello Parcel x React</div>;
+const App = () => (
+  <div className="App">
+    <img className="App-Logo" src={'/dist/' + logo} alt="React Logo" />
+    <h1 className="App-Title">Hello Parcel x React</h1>
+  </div>
+);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
+// Hot Module Replacement
 if (module.hot) {
   module.hot.accept();
 }
