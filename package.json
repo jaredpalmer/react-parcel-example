@@ -2,13 +2,14 @@
   "name": "parcel-react-example",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=development parcel index.html",
-    "build": "NODE_ENV=production parcel build index.html --no-minify"
+    "start": "NODE_ENV=development parcel index.html ",
+    "build":
+      "NODE_ENV=production parcel build index.html --no-minify --public-url /"
   },
   "dependencies": {
     "autoprefixer": "^7.2.1",
     "babel-preset-react-app": "^3.1.0",
-    "parcel-bundler": "^1.0.2",
+    "parcel-bundler": "^1.0.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },

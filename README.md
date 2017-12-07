@@ -65,3 +65,10 @@ make the following change to `index.html`:
 
 If you want to move `index.html`, you will need to update your npm scripts in
 `package.json` with the new relative path.
+
+## Deployment
+
+Refer to the deployment guide in `create-react-app`, just note that you will
+need to account for the fact that Parcel builds out to a `dist` directory, while
+CRA builds to a `build` directory. You can make it identical by adding
+`--out-dir build` to both `start` and `build` npm tasks in `package.json`.
