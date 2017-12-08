@@ -2,9 +2,9 @@
   "name": "parcel-react-example",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=development parcel index.html ",
+    "start": "cross-env NODE_ENV=development parcel index.html ",
     "build":
-      "NODE_ENV=production parcel build index.html --no-minify --public-url /"
+      "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /"
   },
   "dependencies": {
     "autoprefixer": "^7.2.1",
@@ -21,5 +21,8 @@
         "flexbox": "no-2009"
       }
     }
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.1"
   }
 }
