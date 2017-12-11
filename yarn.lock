@@ -1454,6 +1454,12 @@ errno@^0.1.4:
   dependencies:
     prr "~0.0.0"
 
+error-ex@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/error-ex/-/error-ex-1.3.1.tgz#f855a86ce61adc4e8621c3cda21e7a7612c3a8dc"
+  dependencies:
+    is-arrayish "^0.2.1"
+
 escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
@@ -1922,6 +1928,10 @@ is-accessor-descriptor@^0.1.6:
   dependencies:
     kind-of "^3.0.2"
 
+is-arrayish@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.2.1.tgz#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
+
 is-binary-path@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-binary-path/-/is-binary-path-1.0.1.tgz#75f16642b480f187a711c814161fd3a4a7655898"
@@ -2116,6 +2126,10 @@ jsesc@^1.3.0:
 jsesc@~0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
+
+json-parse-better-errors@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.1.tgz#50183cd1b2d25275de069e9e71b467ac9eab973a"
 
 json-schema@0.2.3:
   version "0.2.3"
@@ -2516,9 +2530,9 @@ pako@~1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
-parcel-bundler@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/parcel-bundler/-/parcel-bundler-1.0.3.tgz#5d18ff963a9b892fc910bd0bac829217d34c9459"
+parcel-bundler@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/parcel-bundler/-/parcel-bundler-1.1.0.tgz#8e0be08886ca7e97491836949764204082d32aa5"
   dependencies:
     babel-core "^6.25.0"
     babel-generator "^6.25.0"
@@ -2538,6 +2552,7 @@ parcel-bundler@^1.0.3:
     micromatch "^3.0.4"
     mkdirp "^0.5.1"
     node-libs-browser "^2.0.0"
+    parse-json "^4.0.0"
     physical-cpu-count "^2.0.0"
     postcss "^6.0.10"
     postcss-value-parser "^3.3.0"
@@ -2567,6 +2582,13 @@ parse-glob@^3.0.4:
     is-dotfile "^1.0.0"
     is-extglob "^1.0.0"
     is-glob "^2.0.0"
+
+parse-json@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-4.0.0.tgz#be35f5425be1f7f6c747184f98a788cb99477ee0"
+  dependencies:
+    error-ex "^1.3.1"
+    json-parse-better-errors "^1.0.1"
 
 parseurl@~1.3.2:
   version "1.3.2"
