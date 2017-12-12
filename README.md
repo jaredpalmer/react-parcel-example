@@ -31,7 +31,7 @@ npm run build
 ```
 
 This will compile your JS and copy your `index.html` to the `dist` folder which
-you can deploy whereever as a good ol' webpage.
+you can deploy wherever as a good ol' webpage.
 
 ## CSS
 
