@@ -10,6 +10,8 @@ A minimum viable React app with [Parcel Bundler](https://parceljs.org)
 * `babel-preset-react-app`
 * `autoprefixer`
 
+> **Also [checkout out TypeScript branch](https://github.com/jaredpalmer/react-parcel-example/tree/typescript)**
+
 ## Getting started
 
 Clone and install deps
