@@ -6,11 +6,19 @@
     "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /"
   },
   "dependencies": {
+    "@types/node": "^8.5.1",
+    "@types/react": "^16.0.31",
+    "@types/react-dom": "^16.0.3",
+    "@types/webpack-env": "^1.13.3",
     "autoprefixer": "^7.2.1",
     "babel-preset-react-app": "^3.1.0",
     "parcel-bundler": "^1.2.0",
+    "parcel-plugin-typescript": "^0.2.3",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "tslint": "^5.8.0",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.6.2"
   },
   "postcss": {
     "modules": false,
