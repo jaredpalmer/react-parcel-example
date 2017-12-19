@@ -5,7 +5,7 @@ import './index.css';
 
 const App = () => (
   <div className="App">
-    <img className="App-Logo" src={logo} alt="React Logo" />
+    <img className="App-Logo" src={ '/dist/' + logo} alt="React Logo" />
     <h1 className="App-Title">Hello Parcel x React</h1>
   </div>
 );
