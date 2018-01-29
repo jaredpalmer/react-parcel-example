@@ -5,7 +5,7 @@ const logo = require('./logo.svg');
 
 const App = () => (
   <div className="App">
-    <img className="App-logo" src={'/dist/' + logo} alt="React" />
+    <img className="App-logo" src={logo} alt="React" />
     <h1 className="App-Title">Hello Parcel x React x TypeScript</h1>
   </div>
 );
