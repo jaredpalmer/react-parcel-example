@@ -3,15 +3,8 @@
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development parcel index.html ",
-    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /",
+    "build": "yarn clear && cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /",
     "clear": "rm -rf dist .cache"
-  },
-  "dependencies": {
-    "autoprefixer": "^7.2.1",
-    "babel-preset-react-app": "^3.1.0",
-    "parcel-bundler": "latest",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
   },
   "postcss": {
     "modules": false,
@@ -27,8 +20,16 @@
       }
     }
   },
+  "dependencies": {
+    "autoprefixer": "^7.2.1",
+    "babel-preset-react-app": "^3.1.0",
+    "parcel-bundler": "latest",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
   "devDependencies": {
     "cross-env": "^5.1.1",
+    "jsx-loader": "^0.13.2",
     "node-sass": "^4.7.2",
     "sass": "^1.0.0-beta.5.2"
   }
