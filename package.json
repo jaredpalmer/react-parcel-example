@@ -3,8 +3,8 @@
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development parcel index.html ",
-    "build":
-      "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /"
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /",
+    "clear": "rm -rf dist .cache"
   },
   "dependencies": {
     "autoprefixer": "^7.2.1",
@@ -17,12 +17,19 @@
     "modules": false,
     "plugins": {
       "autoprefixer": {
-        "browsers": [">1%", "last 4 versions", "Firefox ESR", "not ie < 9"],
+        "browsers": [
+          ">1%",
+          "last 4 versions",
+          "Firefox ESR",
+          "not ie < 9"
+        ],
         "flexbox": "no-2009"
       }
     }
   },
   "devDependencies": {
-    "cross-env": "^5.1.1"
+    "cross-env": "^5.1.1",
+    "node-sass": "^4.7.2",
+    "sass": "^1.0.0-beta.5.2"
   }
 }
