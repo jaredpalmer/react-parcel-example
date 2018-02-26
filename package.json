@@ -2,7 +2,7 @@
   "name": "parcel-react-example",
   "license": "MIT",
   "scripts": {
-    "start": "cross-env NODE_ENV=development parcel index.html",
+    "start": "cross-env NODE_ENV=development parcel index.html -p 8080",
     "build": "yarn clear && cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /",
     "clear": "rm -rf dist .cache"
   },
