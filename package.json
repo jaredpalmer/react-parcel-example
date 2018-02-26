@@ -2,9 +2,23 @@
   "name": "parcel-react-example",
   "license": "MIT",
   "scripts": {
-    "start": "cross-env NODE_ENV=development parcel index.html ",
-    "build":
-      "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /"
+    "start": "cross-env NODE_ENV=development parcel index.html -p 8080",
+    "build": "yarn clear && cross-env NODE_ENV=production parcel build index.html --public-url /",
+    "clear": "rm -rf dist .cache"
+  },
+  "postcss": {
+    "modules": false,
+    "plugins": {
+      "autoprefixer": {
+        "browsers": [
+          ">1%",
+          "last 4 versions",
+          "Firefox ESR",
+          "not ie < 9"
+        ],
+        "flexbox": "no-2009"
+      }
+    }
   },
   "dependencies": {
     "autoprefixer": "^7.2.1",
@@ -13,16 +27,8 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
-  "postcss": {
-    "modules": false,
-    "plugins": {
-      "autoprefixer": {
-        "browsers": [">1%", "last 4 versions", "Firefox ESR", "not ie < 9"],
-        "flexbox": "no-2009"
-      }
-    }
-  },
   "devDependencies": {
-    "cross-env": "^5.1.1"
+    "cross-env": "^5.1.1",
+    "node-sass": "^4.7.2"
   }
 }
