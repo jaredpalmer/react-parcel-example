@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './image/logo.svg';
 
 const App = () => (
     <div className="App">
